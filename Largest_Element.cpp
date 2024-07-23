@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int main() {
     int N = 5;
     int DATA[N] = {7, 9, 8, 4, 6};
@@ -27,7 +26,6 @@ int main() {
     //step -4. write : MAX , LOC
 
     cout << MAX << " " << LOC + 1;
-
     //step -5 . Exit
     return 0;
 }
