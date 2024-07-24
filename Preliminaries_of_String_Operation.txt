@@ -1,12 +1,6 @@
 Preliminaries :
 
-# INDEX (Text,string) :
-
-    The INDEX(Text,'string') is a function which gives the starting index of the pattern in the Text,Example :
-
-           if the text is "ABCDEFG" and the pattern is "CD" , then :
-           INDEX("ABCDEFG","CD") = 3 which is the starting index of the pattern in the given Text.
-
+=>WORD PROCESSING
 
 # INSERT(Text,position,string) :
     
@@ -34,12 +28,33 @@ Preliminaries :
             REPLACE("ABCDEFGHI","CDEFGH","XYZ") = "ABXYZI" . 
 
 
+
+
+
+
+=>STRING OPERATION
+
+#CONCATENATION(string1 // string2) :
+    The string1 is concatenated with string2 . Example :
+            if the string1 is "ABC" and string2 is "DEF" , then :
+            string1//string2 = "ABCDEF"
+
+
+# INDEX (Text,string) :
+
+    The INDEX(Text,'string') is a function which gives the starting index of the pattern in the Text,Example :
+
+           if the text is "ABCDEFG" and the pattern is "CD" , then :
+           INDEX("ABCDEFG","CD") = 3 which is the starting index of the pattern in the given Text.
+
+
 #SUBSTRING(Text,position,length) :
     
     The SUBSTRING(Text,position,length) is a function which returns the substring of given length starting from given position.Example :
 
             if the text is "TO BE OR NOT TO BE" and position is 4 and length is 7, then :
             SUBSTRING("TO BE OR NOT TO BE",4,7) = "BE OR N".
+
 
 #LENGTH(Text) :
     
