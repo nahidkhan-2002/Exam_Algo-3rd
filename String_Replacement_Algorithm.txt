@@ -1,0 +1,13 @@
+[See the Preliminaries of String Operation for Function Declarations]
+
+A text (T) and two given patterns (pattern1,pattern2) are in memory. This Algorithm Replaces every occurrences of pattern1 by pattern2 in given T :
+
+step 1. set k:=INDEX(T,pattern1).
+step 2. repeat while k!=0 :
+        
+        a)set T:=REPLACE(T,pattern1,pattern2)
+        b)set k:=INDEX(T,pattern1)
+
+step 3. write: T
+step 4. Exit.
+
