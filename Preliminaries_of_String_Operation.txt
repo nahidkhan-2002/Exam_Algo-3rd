@@ -1,0 +1,49 @@
+Preliminaries :
+
+# INDEX (Text,string) :
+
+    The INDEX(Text,'string') is a function which gives the starting index of the pattern in the Text,Example :
+
+           if the text is "ABCDEFG" and the pattern is "CD" , then :
+           INDEX("ABCDEFG","CD") = 3 which is the starting index of the pattern in the given Text.
+
+
+# INSERT(Text,position,string) :
+    
+    The INSERT(Text,position,string) is a function which inserts the given string in the Text at a given position . Example :
+
+            if the text is "ABCDE" and the position is 3 and the string is "XY",
+            then :
+            INSERT("ABCDE",3,"XY") = "ABXYCDE".
+
+
+#DELETE(Text,position,length) :
+    
+    The DELETE(Text,position,length) is a function that delete every word from the string from the given position until the given length . Example :
+
+            if the text is "ABCDEFGH" and the position is 3 and the length is 4 then :
+            DELETE("ABCDEFGH",3,4) = "ABGH".
+
+
+#REPLACE(Text,string1,string2) :
+    
+    The REPLACE(Text,string1,string2) is a function which replaces the string1 pattern in Text to the given string (string2)
+    Example:
+
+            if the text is "ABCDEFGHI" and string1 is "CDEFGH" and string2 is "XYZ, then :
+            REPLACE("ABCDEFGHI","CDEFGH","XYZ") = "ABXYZI" . 
+
+
+#SUBSTRING(Text,position,length) :
+    
+    The SUBSTRING(Text,position,length) is a function which returns the substring of given length starting from given position.Example :
+
+            if the text is "TO BE OR NOT TO BE" and position is 4 and length is 7, then :
+            SUBSTRING("TO BE OR NOT TO BE",4,7) = "BE OR N".
+
+#LENGTH(Text) :
+    
+    The LENGTH(Text) returns the size or the number of characters in the given Text,Example :
+
+            if the text is "FATHER",then :
+            LENGTH("FATHER") = 6.
