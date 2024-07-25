@@ -1,0 +1,13 @@
+[See preliminaries for more !]
+A text P and T are in the memory . This Algorithm Deletes every occurances of P in T
+
+step 1. Set K := INDEX(T,P)
+
+step 2. Repeat while k!=0 :
+       
+       a) set T := DELETE(T,INDEX(T,P),LENGTH(P))
+       b) set K := INDEX(T,P)
+
+step 3. Write : T
+
+step 4. Exit
