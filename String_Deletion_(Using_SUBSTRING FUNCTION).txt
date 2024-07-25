@@ -1,0 +1,19 @@
+[See prelimineries for more info !]
+
+A text is "VXTYRWQ" and we have to perform the DELETE ("VXTYRWQ",3,3) using the SUBSTRING(TEXT,POSITION,LENGTH) funtion :
+
+Normally DELETE (TEXT,POSITION,LENGTH) will be :
+    DELETE("VXTYRWQ",3,3) = "VXWQ"
+
+
+Using Substring () :
+    SUBSTRING("VXTYRWQ",1,K-1)//SUBSTRING("VXTYRWQ",K+L,LENGTH(T)-K-L+1)
+
+    [Here T = "VXTYRWQ" , K=position which is 3 , L=length which is also 3]
+                                
+                                "VXTYRWQ"
+    
+    SUBSTRING("VXTYRWQ",1,K-1) = "VX"
+    SUBSTRING("VXTYRWQ",K+L,LENGTH(T)-K-L+1) = "WQ"
+
+    ..so  SUBSTRING("VXTYRWQ",1,2) // SUBSTRING("VXTYRWQ",6,2) = "VXWQ"
