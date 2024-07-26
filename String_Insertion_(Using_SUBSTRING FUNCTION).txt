@@ -1,0 +1,20 @@
+[see the prelimineries for more info !]
+
+in the operation the given string is "PRTYUWE" we've to perform INSERT("PRTYUWE",4,"YU") using the SUBSTRING() Function :
+
+usually INSERT("PRTYUWE",4,"YU") = "PRTYUYUWE"
+
+Using the SUBSTRING Function :
+
+INSERT(T,K,S) = SUBSTRING(T,1,k-1) // S // SUBSTRING(T,K,LENGTH(T)-K+1)
+
+[Here T = "PRTYUWE" , K = 4 , S = "YU"]
+
+                                          "PRTYUWE"
+
+SUBSTRING(T,1,k-1) = "PRT"
+SUBSTRING(T,K,LENGTH(T)-K+1) = "YUWE"
+
+...so   SUBSTRING ("PRTYUWE" , 1 , 3) // "YU" // SUBSTRING ("PRTYUWE",4,4)
+        
+        "PRT" // "YU" // "YUWE"  = "PRTYUYUWE"
