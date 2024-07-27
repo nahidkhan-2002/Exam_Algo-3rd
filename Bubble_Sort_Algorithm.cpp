@@ -52,3 +52,12 @@ Ovservation : in this Algortihm, the process is to follow n - 1 steps and every 
             => -1 , 2 , 3 , (5), (4)  [PTR=3] [DATA[3] swap DATA[4]]
             => -1 , 2 , 3 , 4 , 5     [Only swap]
             */
+
+
+/*
+Complexity Analysis :
+
+          In Sorting Algorithm , The Complexity is measured with number of comparsion . in the first step there are (n-1) comparisons which places the maximum element at the last position . so if the Complexity is f(n), then :
+
+     f(n) = (n-1)+(n-2)+(n-3)+......+2+1 = (n*(n-1))/2 = (n^2)/2 + O(n) = O(n^2)
+*/
