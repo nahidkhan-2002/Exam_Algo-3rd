@@ -37,7 +37,7 @@ In the code_samples directory, you’ll find practical code snippets related to 
 # Contributing
 Contributions are welcome! If you have additional algorithms, optimizations, or corrections, feel free to submit a pull request. Let’s make this repository even more valuable for everyone.
 
-#License
+# License
 This repository is open-source and available under the MIT License.
 
-Happy coding, and best of luck with your exams! 🚀📚
+<h3><span style="color : blue;"> Happy coding, and best of luck with your exams!</span></h3> 🚀📚
