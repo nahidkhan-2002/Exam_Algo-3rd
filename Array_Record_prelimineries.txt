@@ -1,0 +1,52 @@
+[The Prelimineries / Must knows for Arrays/Pointers/Records]
+
+# Array :
+       Array is a container which holds a fixed/finite number of Datas which is of same types . in Data Struces,Array are used to implement a specific Algorithm . There are two things important about array :
+
+            1) Element : The each member (stored) in array is called elements . elements should be of same type.
+            2) Index : The location of the specific element in array is called Index . In most cases array starts with index 0 to n-1 [n denotes the size / no. of elements in array].
+
+
+# 1D Array / Single-Dimesional Array :
+        1D Array stores a list of variables of the same data type . It is possible to access the elements using their index.
+        in C++, "int arr[N]" denotes a array of int type where all the elements should be int type and 'N' denotes the size of the Array.
+        if int arr[10] the array can store 10 elements of int type . 
+        
+        Example : int arr[5] = {1,2,3,4,5};
+        the first element whose index is 0 is 1 which can be written as arr[0] = 1;
+
+
+# 2D Array / Multi-dimensional Array :
+        2D Array stores values of same data type in a format which consists of Rows and Columns.
+        in C++,"int arr[R][C]" denotes a array of int type where R is row and C is column .
+        if int arr[5][6] the array consists of 5 rows and 6 columns.
+
+        Example : int arr[2][3] = {{1,2,3},{4,5,6}};
+        the first element which is located at first row and first column can be declared as arr[0][0] = 1;
+
+
+# Records : 
+        Record/Struct is called Basic Structure in Programming . Records can store value of different data types which called fields and also called members in OOP (Object-Oriented Programming) . Typically in fixed number and sequence. 
+
+
+# Pointer :
+        Pointer is a Data Type which stores The Memory address of a certain value in Memory . The Pointer refers to a location in the memory . Obtaining the value from the location given by the pointer is called dereferencing pointer.
+
+
+# Searching : 
+        Searching refers to a process for location a value which is given and can be present in the sets of element.the value can be files,records e.t.c . if the value is 'a' then the searching algortihm will try to find particular element with value of 'a' . sometimes it can be unsuccessful if the element is not present in the set of element . There quite a few algorithms for searching .
+
+
+# Linear Search : 
+        Linear Search algorithm is one of the simplest searching algorithm in programming . The algorithm usually traverse / visits every element of a set of elements (array) . and if the element matches with the given value , then the algorithm return the location/index of the element in the set/array .
+
+
+# Bubble Sort :
+        The bubble Sort algorithm is a Sorting algorithm which traverse every element for n-1 steps (n denotes the size of the array) . there are n-1 passes/steps where a second loop traverses n-k elements and compares two adjacent element and interchange them if condition satisfied . It is less-efficient sorting algorithm and needs for running time .
+
+        Time comp : 
+        Best case = O(n) ; average case = O(n^2) ; worst case = O(n^2)
+
+
+# Binary search :
+        In Searching Algortihm, Binary Search is most efficient (O(logn)) searching Algorithm . Binary search is performed in a sorted array and follows the divide and conquere concept where it cuts off the unused part of the array , everytime it divides the array into half and checks whether the target element is in the right part or the left part , if the element is in the left part the algorithm cuts of the right part and divide the left part again and so on ..
