@@ -3,11 +3,12 @@ using namespace std;
 int main ()
 {
 	int N = 5;
-	int DATA[N] = {4, 66, 134, -53, 95};
+	int DATA[N];
+	for (int i = 1; i <= N; i++)cin >> DATA[i];
 	//Step 1. Set K=0 , LOC = 0 , MIN = DATA[0]
-	int K = 0 , LOC = 0 , MIN = DATA[0];
+	int K = 2 , LOC = 1 , MIN = DATA[1];
 	//Step 2. Repeat Steps 3 and 4 while K<N
-	while (K < N)
+	while (K <= N)
 	{
 		//Step 3. if MIN>DATA[K] , then : set LOC:=K , MIN=DATA[K]
 		if (MIN > DATA[K])

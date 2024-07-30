@@ -2,14 +2,15 @@
 using namespace std;
 int main() {
     int N = 5;
-    int DATA[N] = {7, 9, 8, 4, 6};
+    int DATA[N];
+    for (int i = 1; i <= N; i++) cin >> DATA[i];
     // Step -1 . set : Loc:=1 , K:=1 and MAX : = DATA[1]
 
-    int K = 0, LOC = 0, MAX = DATA[0];
+    int K = 2, LOC = 1, MAX = DATA[1];
 
     // step -2 . while K<=N, repeat step 3
 
-    while (K < N) {
+    while (K <= N) {
 
         //step -3 . if DATA[K]>MAX , then :
 
@@ -25,7 +26,7 @@ int main() {
 
     //step -4. write : MAX , LOC
 
-    cout << MAX << " " << LOC + 1;
+    cout << MAX << " " << LOC;
     //step -5 . Exit
     return 0;
 }
